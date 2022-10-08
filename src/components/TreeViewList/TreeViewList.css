@@ -1,0 +1,22 @@
+.ant-tree {
+  border-radius: 12px;
+  padding: 20px;
+  font-family: "Poppins";
+  font-weight: 500;
+}
+
+.ant-tree-node-content-wrapper-normal .ant-tree-title {
+  font-weight: 400;
+  color: #7a7a7a;
+}
+
+.ant-tree .ant-tree-node-content-wrapper {
+  max-width: 54%;
+}
+
+.ant-tree-checkbox-checked .ant-tree-checkbox-inner,
+.ant-tree-checkbox-indeterminate .ant-tree-checkbox-inner::after {
+  background-color: #41c3a9;
+  border-color: #cad1d4;
+  border-radius: 0.25em;
+}
